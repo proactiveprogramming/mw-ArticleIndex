@@ -3,7 +3,7 @@
 /**
  * All hooked functions used by ArticleIndex
  * @ingroup Extensions
- * @author Josef Martiňák
+ * @author Josef Martiňák and Melissa Janine Newman (Proactive Programming)
  * @license MIT
  * @file
  */
