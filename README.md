@@ -36,17 +36,17 @@ Yes Done – Navigate to Special:Version on your wiki to verify that the extensi
 
 ## Version History
 
-Changes in version 1.0
+Changes in version 1.0 (2022-12-10, Proactive Programming)
 
 The main goal of this version was to verify that ArticleIndex 
 worked with MediaWiki 1.39.  There were cosmetic issues that also
 needed to be fixed.
 
 * Tested for MediaWiki 1.39.0
-* Fixed HTML code, so the articleindex can be formatted with css.
-* Changed css to display "articleindex" class to be displayed in columns.
+* Fixed <div class="articleindex">, so the articleindex can be formatted with css.
+* Changed css to display "articleindex" class to be columns.
 * Changed index items to be unordered list items.
-* Final display of the articleindex looks similar what a user expects to see in formatted end of article index.
+* Final display of the articleindex looks similar what a user expects to see in a category display of items.
 
 Changes in version 0.5.0
 
