@@ -44,8 +44,8 @@ needed to be fixed.
 
 * Tested for MediaWiki 1.39.0
 * Fixed articleindex, so the articleindex can be formatted with css.
-* Changed css to display "articleindex" class to be columns.
-* Changed index items to be unordered list items.
+* Changed css to display "articleindex" class to be in columns.
+* Changed individual index items in the articleindex to be an unordered list items.
 * Final display of the articleindex looks similar what a user expects to see in a category display of items.
 
 Changes in version 0.5.0
