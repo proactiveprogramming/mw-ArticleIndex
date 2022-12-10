@@ -43,10 +43,10 @@ worked with MediaWiki 1.39.  There were cosmetic issues that also
 needed to be fixed.
 
 * Tested for MediaWiki 1.39.0
-* Fixed <div class="articleindex">, so the articleindex can be formatted with css.
-* Changed css to display "articleindex" class to be columns.
+* Fixed HTML code, so the articleindex can be formatted with css.
+* Changed css to display "articleindex" class to be displayed in columns.
 * Changed index items to be unordered list items.
-* Final display of the articleindex looks similar what a user expects to see in a category display of items.
+* Final display of the articleindex looks similar what a user expects to see in formatted end of article index.
 
 Changes in version 0.5.0
 
