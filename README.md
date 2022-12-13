@@ -36,34 +36,36 @@ Yes Done – Navigate to Special:Version on your wiki to verify that the extensi
 
 ## Version History
 
-Changes in version 1.0 (2022-12-10, Proactive Programming)
+### Version 1.0
+	MediaWiki Version: 1.39.x LTS 2022-12-10
+	Author: Melissa Newman (Proactive Programming)
 
 The main goal of this version was to verify that ArticleIndex 
 worked with MediaWiki 1.39.  There were cosmetic issues that also
 needed to be fixed.
 
-* Tested for MediaWiki 1.39.0
-* Fixed articleindex, so the articleindex can be formatted with css.
-* Changed css to display "articleindex" class to be in columns.
-* Changed individual index items in the articleindex to be an unordered list items.
-* Final display of the articleindex looks similar what a user expects to see in a category display of items.
+* Fixed <div class="articleindex">, so the articleindex can be formatted with css.
+* Changed css to display "articleindex" class to be columns.
+* Changed index items to be unordered list items.
 
-Changes in version 0.5.0
-
+### Version 0.5.0
+	MediaWiki Version: 
+	Author: Melissa Newman (Proactive Programming)
+	
 * Converted to extension registration.
 
-Changes in version 0.4.0
+### Version 0.4.0
 
 * Migrated I18n from php-files to json-files
 
-Changes in version 0.3.0
+### Version 0.3.0
 
 * Added files ArticleIndex.i18n.php and ext.ArticleIndex.css.
 * Indexed words are now case insensitive, they are shown in index in lowercase with first letter capitalized
 * New style of highlighted words
 * New feature - navigation buttons shows on mouseover (previous, next, index)
 
-Changes in version 0.2.0
+### Version 0.2.0
 
 * Code - spacey style
 * New function - clicking the word in index moves page to first occurrence of the word
